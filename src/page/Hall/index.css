@@ -1,0 +1,17 @@
+.hallWrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.CardListWrapper{
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  grid-template-rows: repeat(auto-fill, 150px);
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+}
